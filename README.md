@@ -42,3 +42,10 @@ blurred, the menu stays open. It seems we would have to use the additional
 this. But that would add a lot more code
 and complexity, so we just settled with
 the menu opening on the initial click.
+
+### use-select
+
+It would be interesting to check out
+[use-select](https://github.com/tannerlinsley/use-select)
+from, Tanner Linsley,
+the same author as react-query.

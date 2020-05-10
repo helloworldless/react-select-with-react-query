@@ -1,5 +1,7 @@
 # react-select with react-query
 
+[Open in CodeSandbox](https://codesandbox.io/s/github/paltamadura/react-select-with-react-query)
+
 ## Notes
 
 ### Select vs. Async Select

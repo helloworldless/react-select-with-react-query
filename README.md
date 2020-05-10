@@ -24,21 +24,20 @@ react-query.
 
 It took quite a lot of work to get react-select
 fine-tuned for this use case. Some things aren't very
-intitutive, like needing ot use two different change
+intitutive, like needing to use two different change
 handlers: `onChange` and `onInputChange`.
 
-Also, we gave up on trying to get `menuIsOpen` perfect for this scenario:
+Also, we gave up on trying to get `menuIsOpen`
+working perfectly for this scenario:
 
-Don't show the menu on the inital click when
-there are no options yet and no search text has
-been input yet
+- Don't show the menu on the inital click when
+  there are no options yet and no search text has
+  been input yet
 
 Using just the `menuIsOpen` prop there is an
 unintended consequence: if some text is entered
 but no option selected and then the input is
-blurred, the menu stays open.
-
-It seems we would have to use the additional
+blurred, the menu stays open. It seems we would have to use the additional
 `onBlur` and `onFocus` handlers to accomplish
 this. But that would add a lot more code
 and complexity, so we just settled with
